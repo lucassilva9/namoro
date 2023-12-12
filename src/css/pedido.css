@@ -1,0 +1,69 @@
+
+body {
+    height: fit-content;
+    background-color: #EEEEEE;
+}
+
+/* .botao {
+    padding: 10% 20px;
+    cursor: pointer;
+    background-color: #B0CFEE;
+    color: #155793;
+} */
+
+/* Estilo para o botão */
+.botao {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff; /* Cor do texto */
+  background-color: #3498db; /* Cor de fundo azul */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+/* Efeito hover para o botão */
+.botao:hover {
+  background-color: #2980b9; /* Cor de fundo azul mais escura no hover */
+}
+
+
+.conteiner {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.imagem {
+    width: fit-content;
+    left: auto;
+    margin: auto;
+    display: block;
+    pointer-events: none;
+}
+
+.pedido {
+    /* position: absolute; */
+    /* top: 68%;
+    left: 42%; */
+    font-size: 17px;
+    color: #155793;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    transition: all.5s;
+    color: #155793;
+    top: 70%;
+}
